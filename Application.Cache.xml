@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application snapshot="true" xmlns="urn:schemas-codeontime-com:data-aquarium-application" xmlns:m="urn:codeontime:data-map" xmlns:dm="urn:schemas-codeontime-com:data-model" integrity="checked">
+  <pages xmlns="urn:schemas-codeontime-com:data-aquarium-application">
+    <page name="Home" title="AuroraPDMS" description="AuroraPDMS Homepage" path="^HomePath^Home^HomePath^" style="HomePage" customStyle="Wide" index="1000" useExtenders="false" generate="FirstTimeOnly">
+      <containers>
+        <container id="c101" flow="NewRow" />
+        <container id="c102" flow="NewRow" style="padding-top:8px" />
+      </containers>
+      <controls>
+        <control id="control1" container="c101" name="myLogin" />
+      </controls>
+      <dataViews>
+      </dataViews>
+    </page>
+    <page name="PatientModule" path="Patient" index="1010" title="Patient Module" useExtenders="false" generate="Always" customStyle="material-icon-assignment-ind" />
+    <page name="PatientMaster" title="Patient Record" index="1030" path="Patient | Patient Record" customStyle="material-icon-supervisor-account" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Patient" view="grid1" showInSummary="true" container="container1" activator="None" text="" tag="view-style-list" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="InactivePatient" title="Patient Record" index="1050" path="Patient | Inactive Patient" customStyle="material-icon-visibility-off" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Patient3" view="grid1" showInSummary="true" container="container1" activator="None" text="" tag="view-style-grid" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="RptPatActive" path="Patient | Active Patient Report" index="1060" title="Active Patient Report" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" customStyle="material-icon-supervisor-account" />
+    <page name="RptPatInactive" path="Patient | Inactive Patient Report" index="1070" title="Inactive Patient Report" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" customStyle="material-icon-visibility-off" />
+    <page name="rptsample" path="Patient | rptsample" index="1080" title="rptsample" roles="*" useExtenders="false" generate="Always" template="(blank)" />
+    <page name="Schedule" title="Schedule" index="1090" path="Schedule" useExtenders="false" customStyle="material-icon-alarm">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ScheduleHdr" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="TreatmentModule" path="Treatment" index="1100" title="Treatment Module" useExtenders="false" generate="Always" customStyle="material-icon-favorite" />
+    <page name="TreatmentMaster" title="Treatment Record" index="1110" path="Treatment | Treatment Record" customStyle="material-icon-assignment" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Treatment" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="TreatmentByPatient" title="Treatment History" index="1120" path="Treatment | Treatment History" useExtenders="false" customStyle="material-icon-find-in-page">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Patient1" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="PatientDialyzer" title="Patient Dialyzer" description="View Patient Dialyzer" index="1130" path="Treatment | Patient Dialyzer" customStyle="material-icon-opacity" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="PatientDialyzer" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="Invoice" title="Invoice" description="View Invoice" index="1140" path="Invoice">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Invoice" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows invoice management.</about>
+    </page>
+    <page name="Payment" path="Payment" index="1150" title="Payment" customStyle="material-icon-payment" useExtenders="false" generate="Always" />
+    <page name="ExpensesMaster" path="Payment | Expenses Master" index="1160" title="Expenses Master" roles="*" useExtenders="false" generate="Always" customStyle="material-icon-attach-money">
+      <containers>
+        <container id="c101" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" container="c101" controller="PatientExpenses" view="grid1" multiSelect="false" autoHide="Nothing" refreshInterval="5" />
+      </dataViews>
+    </page>
+    <page name="ReceiptPayment" title="Receipt Payment" index="1170" path="Payment | Receipt Payment" customStyle="material-icon-receipt" useExtenders="false" roles="Administrators">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ReceiptPayment" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="DebtPaymentEntry" title="Debt Payment Entry" index="1180" path="Payment | Debt Payment Entry" useExtenders="false" customStyle="material-icon-assignment-late">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="DebtPayment" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="DebtPaymentRecord" title="Debt Payment Record" index="1190" path="Payment | Debt Payment Record" useExtenders="false" customStyle="material-icon-assignment-turned-in">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="DebtPaymentHdr" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="Refunds" title="Refunds" description="View Refunds" index="1200" path="Payment | Refunds" customStyle="material-icon-assignment-return" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Refunds" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows refunds management.</about>
+    </page>
+    <page name="FastSchedule" path="Fast Schedule" index="1210" title="Fast Schedule" roles="Administrators, Matron" useExtenders="false" generate="Always">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Patient2" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+    </page>
+    <page name="Dashboard" path="Dashboard" index="1220" title="Dashboard" customStyle="Wide" useExtenders="false" generate="Always">
+      <containers>
+        <container id="c101" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" container="c101" controller="Dashboards" view="form1" showActionButtons="None" />
+      </dataViews>
+    </page>
+    <page name="Security" path="Security" index="1230" title="Security" roles="Administrators" useExtenders="false" generate="Always" />
+    <page name="Users" title="Users" description="View Users" index="1240" path="Security | Users">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Users" view="grid1" showInSummary="true" container="container1" activator="Tab" text="Users" sequence="1" />
+        <dataView id="view2" container="container1" controller="Roles" view="grid1" showInSummary="true" multiSelect="false" autoHide="Nothing" activator="Tab" text="Roles" sequence="2" />
+      </dataViews>
+      <controls />
+      <about>This page allows users management.</about>
+    </page>
+    <page name="BasicCode2" path="Basic Code" index="1250" title="Basic Code 2" roles="Administrators" useExtenders="false" generate="Always" />
+    <page name="BloodTestType" title="Blood Test Type" description="View Blood Test Type" index="1260" path="Basic Code | Blood Test Type" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="BloodTestType" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows blood test type management.</about>
+    </page>
+    <page name="City" title="City" description="View City" index="1270" path="Basic Code | City">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="City" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows city management.</about>
+    </page>
+    <page name="Country" title="Country" description="View Country" index="1280" path="Basic Code | Country">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Country" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows country management.</about>
+    </page>
+    <page name="DialysisCenter" title="Dialysis Center" description="View Dialysis Center" index="1290" path="Basic Code | Dialysis Center">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="DialysisCenter" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows dialysis center management.</about>
+    </page>
+    <page name="DialysisMachine" title="Dialysis Machine" description="View Dialysis Machine" index="1300" path="Basic Code | Dialysis Machine">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="DialysisMachine" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows dialysis machine management.</about>
+    </page>
+    <page name="Dialyzer" title="Dialyzer" description="View Dialyzer" index="1310" path="Basic Code | Dialyzer">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Dialyzer" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows dialyzer management.</about>
+    </page>
+    <page name="ExpenseType" title="Expense Type" description="View Expense Type" index="1320" path="Basic Code | Expense Type">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ExpenseType" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows expense type management.</about>
+    </page>
+    <page name="MedicationType" title="Medication Type" description="View Medication Type" index="1330" path="Basic Code | Medication Type">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="MedicationType" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows medication type management.</about>
+    </page>
+    <page name="Race" title="Race" description="View Race" index="1340" path="Basic Code | Race">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Race" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows race management.</about>
+    </page>
+    <page name="ReasonCeased" title="Reason Ceased" description="View Reason Ceased" index="1350" path="Basic Code | Reason Ceased">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ReasonCeased" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows reason ceased management.</about>
+    </page>
+    <page name="Relationship" title="Relationship" description="View Relationship" index="1360" path="Basic Code | Relationship">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Relationship" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows relationship management.</about>
+    </page>
+    <page name="Religion" title="Religion" description="View Religion" index="1370" path="Basic Code | Religion" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Religion" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows religion management.</about>
+    </page>
+    <page name="Shift" title="Shift" description="View Shift" index="1380" path="Basic Code | Shift">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Shift" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows shift management.</about>
+    </page>
+    <page name="State" title="State" description="View State" index="1390" path="Basic Code | State">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="State" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows state management.</about>
+    </page>
+    <page name="Sponsor" title="Funding" description="View Sponsor" index="1400" path="Basic Code | Funding" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Sponsor" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows sponsor management.</about>
+    </page>
+    <page name="VascularType" title="Vascular Type" description="View Vascular Type" index="1410" path="Basic Code | Vascular Type">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VascularType" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows vascular type management.</about>
+    </page>
+    <page name="RND" path="RND" index="1420" title="RND" useExtenders="false" generate="Always" roles="Administrators" url="about:blank" />
+    <page name="VwInvoicePrintSummaryByPatient" title="Vw Invoice Print Summary By Patient" description="View Vw Invoice Print Summary By Patient" index="1430" path="RND | Vw Invoice Print Summary By Patient">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwInvoicePrintSummaryByPatient" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw invoice print summary by patient management.</about>
+    </page>
+    <page name="VwBloodTestDr" title="Vw Blood Test Dr" description="View Vw Blood Test Dr" index="1440" path="RND | Vw Blood Test Dr">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwBloodTestDr" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw blood test dr management.</about>
+    </page>
+    <page name="VwBloodTestChart" title="Vw Blood Test Chart" description="View Vw Blood Test Chart" index="1450" path="RND | Vw Blood Test Chart">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwBloodTestChart" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw blood test chart management.</about>
+    </page>
+    <page name="VwSuratPengesahan" title="Vw Surat Pengesahan" description="View Vw Surat Pengesahan" index="1460" path="RND | Vw Surat Pengesahan">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwSuratPengesahan" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw surat pengesahan management.</about>
+    </page>
+    <page name="VwSuratTuntutanTunggakan" title="Vw Surat Tuntutan Tunggakan" description="View Vw Surat Tuntutan Tunggakan" index="1470" path="RND | Vw Surat Tuntutan Tunggakan">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwSuratTuntutanTunggakan" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw surat tuntutan tunggakan management.</about>
+    </page>
+    <page name="Debts" title="Debts" description="View Debts" index="1480" path="RND | Debts">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Debts" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows debts management.</about>
+    </page>
+    <page name="Payments" title="Payments" description="View Payments" index="1490" path="RND | Payments">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="Payments" view="grid1" showInSummary="true" container="container1" activator="None" text="" />
+      </dataViews>
+      <controls />
+      <about>This page allows payments management.</about>
+    </page>
+    <page name="DebtPayment" path="RND | Debt Payment" index="1500" title="Debt Payment" roles="*" useExtenders="false" generate="Always">
+      <containers>
+        <container id="c101" flow="NewRow" />
+        <container id="c102" flow="NewRow" style="padding-top:8px;" />
+        <container id="c103" flow="NewRow" style="padding-top:8px;" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" container="c101" controller="Patient" view="grid1" multiSelect="false" autoHide="Nothing" showInSummary="true" pageSize="5" />
+        <dataView id="view2" container="c102" controller="Debts" view="grid1" text="Debts" pageSize="5" multiSelect="false" autoHide="Container" showViewSelector="false" />
+      </dataViews>
+    </page>
+    <page name="PaymentDtl" title="Payment Dtl" description="View Payment Dtl" index="1510" path="RND | Payment Dtl">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="PaymentDtl" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows payment dtl management.</about>
+    </page>
+    <page name="VwReceiptPaymentPh" title="Vw Receipt Payment Ph" description="View Vw Receipt Payment Ph" index="1520" path="RND | Vw Receipt Payment Ph">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwReceiptPaymentPh" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw receipt payment ph management.</about>
+    </page>
+    <page name="VwRefundsReceipt" title="Vw Refunds Receipt" description="View Vw Refunds Receipt" index="1530" path="RND | Vw Refunds Receipt">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwRefundsReceipt" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw refunds receipt management.</about>
+    </page>
+    <page name="VwScheduledNotAttend" title="Vw Scheduled Not Attend" description="View Vw Scheduled Not Attend" index="1540" path="RND | Vw Scheduled Not Attend">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwScheduledNotAttend" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw scheduled not attend management.</about>
+    </page>
+    <page name="VwRekodRawatanHaemod" title="Vw Rekod Rawatan Haemod" description="View Vw Rekod Rawatan Haemod" index="1550" path="RND | Vw Rekod Rawatan Haemod">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwRekodRawatanHaemod" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw rekod rawatan haemod management.</about>
+    </page>
+    <page name="VwRekodRawatanHaemod2" title="Vw Rekod Rawatan Haemod2" description="View Vw Rekod Rawatan Haemod2" index="1560" path="RND | Vw Rekod Rawatan Haemod2">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwRekodRawatanHaemod2" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw rekod rawatan haemod2 management.</about>
+    </page>
+    <page name="MedicalCenters" title="Medical Centers" description="View Medical Centers" index="1570" path="RND | Medical Centers">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="MedicalCenters" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows medical centers management.</about>
+    </page>
+    <page name="VwPatientTeminate" title="Vw Patient Teminate" description="View Vw Patient Teminate" index="1580" path="RND | Vw Patient Teminate">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwPatientTeminate" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw patient teminate management.</about>
+    </page>
+    <page name="VwPatientActive" title="Vw Patient Active" description="View Vw Patient Active" index="1590" path="RND | Vw Patient Active">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="VwPatientActive" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about>This page allows vw patient active management.</about>
+    </page>
+    <page name="Reports" path="Reports" index="1600" title="Reports" roles="Administrators" useExtenders="false" generate="Always" url="about:blank" />
+    <page name="ReportTerminate" title="Inactive Patient Report x" index="1610" path="Reports | Inactive Patient Report" useExtenders="false" customStyle="material-icon-visibility-off">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ReportTerminate" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="ActiveRpt" path="Reports | Active Rpt" index="1620" title="Active Rpt" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" />
+    <page name="ReportActive" title="Report Active" index="1630" path="Reports | Active Patient Report" customStyle="material-icon-supervisor-account" useExtenders="false">
+      <containers>
+        <container id="container1" flow="NewRow" />
+      </containers>
+      <dataViews>
+        <dataView id="view1" controller="ReportActive" view="grid1" showInSummary="true" container="container1" activator="None" text="" showModalForms="true" />
+      </dataViews>
+      <controls />
+      <about />
+    </page>
+    <page name="RptPatDialyzerList" path="Reports | Patient Dialyzer Report" index="1660" title="Patient Dialyzer Report" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" />
+    <page name="RptTrtPatient" path="Reports | Patient Treatment " index="1670" title="Patient Treatment " roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" />
+    <page name="RptPayDialysisTrt" path="Reports | Dialysis Treatment Payment" index="1690" title="Dialysis Treatment Payment" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" />
+    <page name="RptSponsorSummary" path="Reports | Sponsor Summary Report" index="1700" title="Sponsor Summary Report" roles="*" useExtenders="false" generate="FirstTimeOnly" template="(blank)" />
+  </pages>
+  <userControls>
+    <userControl name="TableOfContents" prefix="uc" generate="Always">
+      <body>
+                
+&lt;div class="ParaInfo"&gt;
+        ^TocInstruction^Please select a page link in the table of contents below.^TocInstruction^&lt;/div&gt;
+&lt;div class="ParaHeader"&gt;
+    ^TocHeader^Site Map^TocHeader^
+&lt;/div&gt;
+&lt;asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" /&gt;
+&lt;asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="TreeView"&gt;
+&lt;/asp:TreeView&gt;
+
+&lt;div id="app-sitemap" data-app-role="page" data-activator="Button|^TocHeader^Site Map^TocHeader^"&gt;
+    &lt;p&gt;
+      &lt;span&gt;^TocInstruction^Please select a page link in the table of contents below.^TocInstruction^&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;div data-app-role="sitemap"&gt;&lt;/div&gt;
+    &lt;p&gt;
+      &lt;br /&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+              </body>
+    </userControl>
+    <userControl name="Welcome" prefix="uc" generate="Always">
+      <body>&lt;div style="padding-left:8px"&gt;&lt;div class="ParaInfo"&gt;
+        ^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^&lt;/div&gt;
+&lt;div class="ParaHeader"&gt;
+    ^SignInHeader^Instructions^SignInHeader^
+&lt;/div&gt;
+&lt;div class="ParaText"&gt;
+    ^SignInPara1^Two standard user accounts are automatically created when application is initialized
+    if membership option has been selected for this application.^SignInPara1^
+&lt;/div&gt;
+                  
+&lt;div class="ParaText"&gt;
+    ^SignInPara2^The administrative account &lt;b&gt;admin&lt;/b&gt; is authorized to access all areas of the
+    web site and membership manager. The standard &lt;b&gt;user&lt;/b&gt; account is allowed to
+    access all areas of the web site with the exception of membership manager.^SignInPara2^&lt;/div&gt;
+                
+                  
+&lt;div class="ParaText"&gt;
+    ^SignInPara3^Move the mouse pointer over the link &lt;i&gt;Login to this web site&lt;/i&gt; on the right-hand side
+    at the top of the page and sign in with one of the accounts listed below.^SignInPara3^&lt;/div&gt;
+                
+&lt;div class="ParaText"&gt;
+    &lt;div style="border: solid 1px black; background-color: InfoBackground; padding: 8px;
+        float: left;"&gt;
+        ^AdminDesc^Administrative account^AdminDesc^:&lt;br /&gt;
+        &lt;b title="User Name"&gt;admin&lt;/b&gt; / &lt;b title="Password"&gt;admin123%&lt;/b&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        ^UserDesc^Standard user account^UserDesc^:&lt;br /&gt;
+        &lt;b title="User Name"&gt;user&lt;/b&gt; / &lt;b title="Password"&gt;user123%&lt;/b&gt;
+    &lt;/div&gt;
+    &lt;div style="clear:both;margin-bottom:8px"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="app-welcome" data-app-role="page" data-activator="Button|^SignInHeader^Instructions^SignInHeader^" data-activator-description="^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^"&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login Status&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</body>
+    </userControl>
+    <userControl name="Login" prefix="uc" generate="FirstTimeOnly">
+      <body>
+              
+&lt;div data-app-role="page" data-content-framework="bootstrap"&gt;
+        &lt;div class="navbar navbar-default navbar-static-top" role="navigation"&gt;
+            &lt;div class="container"&gt;
+                &lt;div class="navbar-header"&gt;
+                    &lt;span class="navbar-brand"&gt;Standalone Login Page&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="navbar-collapse"&gt;
+                    &lt;div class="navbar-form navbar-right" role="form"&gt;
+                        &lt;div class="form-group"&gt;
+                            &lt;input id="login-user-name" type="text" placeholder="Username" class="form-control" autocapitalize="off"&gt;
+                        &lt;/div&gt;
+                        &lt;div class="form-group"&gt;
+                            &lt;input id="login-password" type="password" placeholder="Password" class="form-control"&gt;
+                        &lt;/div&gt;
+                        &lt;button id="login-button" class="btn btn-success"&gt;Sign in&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!--/.navbar-collapse --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- Main jumbotron for a primary marketing message or call to action --&gt;
+        &lt;div class="jumbotron"&gt;
+            &lt;div class="container"&gt;
+                &lt;h1&gt;&lt;span class="glyphicon glyphicon-globe"&gt;&lt;/span&gt;&amp;nbsp;Hello, world!&lt;/h1&gt;
+                &lt;p&gt;
+                    This is a template for a custom login screen. It includes a large callout called a jumbotron and three supporting content blocks.
+                    Edit the "~/Login.html" page in Visual Studio to create something more unique.
+                &lt;/p&gt;
+
+                &lt;p&gt;&lt;a href="#" class="btn btn-primary btn-lg" role="button"&gt;Learn more &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container"&gt;
+
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-8"&gt;
+                    &lt;h2&gt;^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^&lt;/h2&gt;
+                    &lt;p&gt;
+                        ^SignInPara1^Two standard user accounts are automatically created when application is initialized
+                        if membership option has been selected for this application.^SignInPara1^
+                    &lt;/p&gt;
+
+                    &lt;p&gt;
+                        ^SignInPara2^The administrative account &lt;b&gt;admin&lt;/b&gt; is authorized to access all areas of the
+                        web site and membership manager. The standard &lt;b&gt;user&lt;/b&gt; account is allowed to
+                        access all areas of the web site with the exception of membership manager.^SignInPara2^
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;div class="panel panel-success"&gt;
+                        &lt;div class="panel-heading"&gt;
+                            &lt;span&gt;^AdminDesc^Administrative account^AdminDesc^&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="panel-body"&gt;
+                            User Name: &lt;b title="User Name"&gt;admin&lt;/b&gt;&lt;br /&gt;
+                            Password: &lt;b title="Password"&gt;admin123%&lt;/b&gt;&lt;br /&gt;
+                            &lt;a class="btn btn-link" href="#" id="admin-login"&gt;Login as Admin&lt;/a&gt;&lt;br /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="panel panel-default"&gt;
+                        &lt;div class="panel-heading"&gt;
+                            &lt;span&gt;^UserDesc^Standard user account^UserDesc^&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class="panel-body"&gt;
+                            User Name: &lt;b title="User Name"&gt;user&lt;/b&gt;&lt;br /&gt;
+                            Password: &lt;b title="Password"&gt;user123%&lt;/b&gt;&lt;br /&gt;
+                            &lt;a class="btn btn-link" href="#" id="user-login"&gt;Login as User&lt;/a&gt;&lt;br /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;hr /&gt;
+            &lt;!-- Example row of columns --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;h2&gt;Heading&lt;/h2&gt;
+                    &lt;p&gt;Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. &lt;/p&gt;
+                    &lt;p&gt;&lt;a class="btn btn-default" href="#" role="button"&gt;View details &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;h2&gt;Heading&lt;/h2&gt;
+                    &lt;p&gt;Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. &lt;/p&gt;
+                    &lt;p&gt;&lt;a class="btn btn-default" href="#" role="button"&gt;View details &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;h2&gt;Heading&lt;/h2&gt;
+                    &lt;p&gt;Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+                    &lt;p&gt;&lt;a class="btn btn-default" href="#" role="button"&gt;View details &amp;raquo;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;hr/&gt;
+        &lt;!-- /container --&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;script type="text/javascript"&gt;
+        (function () {
+            var resources = Web.MembershipResources.Messages;
+
+            function performLogin(username, password) {
+
+                var userNameElem = $('#login-user-name'),
+                    passwordElem = $('#login-password');
+
+                if (!username)
+                    username = userNameElem.val();
+                if (!password)
+                    password = passwordElem.val();
+
+                if (!username)
+                    $app.alert(resources.BlankUserName, function () {
+                        userNameElem.focus();
+                    });
+                else if (!password)
+                    $app.alert(resources.BlankPassword, function () {
+                        passwordElem.focus();
+                    });
+                else
+                    $app.login(username, password, true,
+                        function () {
+                            setTimeout(function() {
+                              $app._navigated = true;
+                              var returnUrl = window.location.href.match(/\?ReturnUrl=(.+)$/);
+                              window.location.replace(returnUrl &amp;&amp; decodeURIComponent(returnUrl[1]) || __baseUrl);
+                            });
+                        },
+                        function () {
+                            $app.alert(resources.InvalidUserNameAndPassword, function () {
+                                userNameElem.focus();
+                            });
+                        });
+                return false;
+            }
+
+            $(document)
+                .on('click', '#login-button', function () {
+                    performLogin();
+                })
+                .on('click', '#admin-login', function () {
+                    performLogin('admin', 'admin123%');
+                })
+                .on('click', '#user-login', function () {
+                    performLogin('user', 'user123%');
+                })
+                .on('keydown', 'input', function (event) {
+                    if (event.which == 13) {
+                        event.preventDefault();
+                        performLogin();
+                        return false;
+                    }
+                });
+        })();
+    &lt;/script&gt;
+
+            </body>
+    </userControl>
+    <userControl name="myLogin" prefix="uc" generate="Always">
+      <body>&lt;div data-app-role="page" data-activator="Button|CONTROL_ID_PRETTY" data-content-framework="bootstrap"&gt;
+
+        &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+            &lt;!-- Indicators --&gt;
+            &lt;ol class="carousel-indicators"&gt;
+                &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+            &lt;/ol&gt;
+            &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;
+                    &lt;img src="../images/carousell-01.jpg"
+                        alt="First slide" style="height: 100%" /&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="carousel-caption"&gt;
+                            &lt;h1 data-editable="true"&gt;
+                                &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                                Welcome To AuroraPDMS.&lt;/h1&gt;
+                            &lt;p data-editable="true"&gt;
+                                AuroraPDMS help you to manage dialysis management
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                                &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login&lt;/a&gt;
+
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+                &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                    href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container marketing"&gt;
+            &lt;!-- Three columns of text below the carousel --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-patient.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Patient&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Patient Info, Blood Test Record, Sponsor Info
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-schedule.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Schedule&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Schedule
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-treatment.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Treatment&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Info, Expenses
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.row --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;</body>
+    </userControl>
+  </userControls>
+</application>

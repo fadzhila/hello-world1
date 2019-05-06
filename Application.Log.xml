@@ -1,0 +1,3549 @@
+<log xmlns="urn:schemas-codeontime-com:xml-builder" xmlns:aquarium="urn:schemas-codeontime-com:data-aquarium" xmlns:app="urn:schemas-codeontime-com:data-aquarium-application" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+  <c y="NodeSet" t="2018-03-22T18:03:46">
+    <pages />
+    <insert type="page">
+      <Name>Security</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Security</Path>
+      <Title>Security</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:03:57">
+    <page name="Security" />
+    <move>
+      <page name="Membership" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:03:59">
+    <page name="Membership" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:11:58">
+    <pages />
+    <insert type="page">
+      <Name>BasicCode2</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Basic Code 2</Path>
+      <Title>Basic Code 2</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:12:08">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Religion" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:12:11">
+    <page name="Religion" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:53:54">
+    <page name="BloodTestType" />
+    <before>
+      <page name="Patient" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:54:17">
+    <page name="BloodTestType" />
+    <before>
+      <page name="ScheduleHdr" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:54:22">
+    <page name="BloodTestType" />
+    <before>
+      <page name="Treatment" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:54:54">
+    <page name="BasicCode2" />
+    <rename>Basic Code</rename>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:01">
+    <page name="BloodTestType" />
+    <before>
+      <page name="BasicCode2" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:10">
+    <page name="BloodTestType" />
+    <rename>Blood Type</rename>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:13">
+    <page name="BasicCode2" />
+    <move>
+      <page name="BloodTestType" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Country" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="State" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="DialysisCenter" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="DialysisMachine" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="ExpenseType" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:29">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Race" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:39">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Relationship" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:39">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Shift" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:55:55">
+    <page name="BasicCode2" />
+    <move>
+      <page name="City" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:08">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Sponsor" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:14">
+    <page name="Shift" />
+    <after>
+      <page name="VascularType" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:20">
+    <page name="Religion" />
+    <move>
+      <page name="BloodTestType" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:36">
+    <page name="Religion" />
+    <move>
+      <page name="BloodTestType" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:38">
+    <page name="BasicCode2" />
+    <after>
+      <page name="BloodTestType" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:42">
+    <page name="Religion" />
+    <before>
+      <page name="BloodTestType" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:48">
+    <page name="Religion" />
+    <before>
+      <page name="Country" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:56:54">
+    <page name="Religion" />
+    <before>
+      <page name="City" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:01">
+    <page name="Religion" />
+    <before>
+      <page name="State" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:04">
+    <page name="Religion" />
+    <before>
+      <page name="DialysisCenter" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:08">
+    <page name="Religion" />
+    <before>
+      <page name="DialysisMachine" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:11">
+    <page name="Religion" />
+    <before>
+      <page name="ExpenseType" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:39">
+    <page name="Religion" />
+    <before>
+      <page name="Race" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:43">
+    <page name="Religion" />
+    <before>
+      <page name="Relationship" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:49">
+    <page name="VascularType" />
+    <before>
+      <page name="ReasonCeased" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:57:53">
+    <page name="VascularType" />
+    <before>
+      <page name="Sponsor" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:02">
+    <page name="VascularType" />
+    <after>
+      <page name="MedicalCenters" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:09">
+    <page name="MedicalCenters" />
+    <after>
+      <page name="MedicationType" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:23">
+    <page name="PatientBloodTest" />
+    <before>
+      <page name="Security" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:37">
+    <pages />
+    <insert type="page">
+      <Name>Rubbish</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Rubbish</Path>
+      <Title>Rubbish</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:56">
+    <page name="Rubbish" />
+    <move>
+      <page name="PatientBloodTest" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:56">
+    <page name="Rubbish" />
+    <move>
+      <page name="Expenses" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:56">
+    <page name="Rubbish" />
+    <move>
+      <page name="Invoice" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:56">
+    <page name="Rubbish" />
+    <move>
+      <page name="InvDetail" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:58:56">
+    <page name="Rubbish" />
+    <move>
+      <page name="MedicationHistory" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:59:12">
+    <page name="PatientBtdetail" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:59:12">
+    <page name="PatSponsor" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:59:12">
+    <page name="TreatmentHd" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:59:12">
+    <page name="ScheduleDtl" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-22T18:59:12">
+    <page name="Medication" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:49:19">
+    <page name="ScheduleHdr" />
+    <update>
+      <Name>Schedule</Name>
+      <UseExtenders>false</UseExtenders>
+      <Title>Schedule</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:49:33">
+    <page name="Patient" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <CustomStyle>material-icon-assignment-ind</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:49:39">
+    <page name="Patient" />
+    <update>
+      <Description />
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:49:52">
+    <page name="Schedule" />
+    <update>
+      <CustomStyle>material-icon-alarm</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:49:56">
+    <page name="Schedule" />
+    <update>
+      <Description />
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-23T23:51:47">
+    <page name="Schedule" />
+    <rename>Schedule</rename>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:08:46">
+    <page name="BloodTestType" />
+    <rename>Blood Test Type</rename>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:08:50">
+    <page name="BloodTestType" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:18">
+    <page name="Country" />
+    <before>
+      <page name="City" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:24">
+    <page name="State" />
+    <before>
+      <page name="DialysisCenter" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:24">
+    <page name="State" />
+    <before>
+      <page name="DialysisMachine" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:36">
+    <page name="State" />
+    <move>
+      <page name="ExpenseType" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:36">
+    <page name="State" />
+    <move>
+      <page name="Race" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:36">
+    <page name="State" />
+    <move>
+      <page name="Relationship" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:36">
+    <page name="State" />
+    <move>
+      <page name="Religion" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:42">
+    <page name="Shift" />
+    <before>
+      <page name="ExpenseType" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:46">
+    <page name="Shift" />
+    <before>
+      <page name="Race" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:46">
+    <page name="Shift" />
+    <before>
+      <page name="Relationship" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:46">
+    <page name="Shift" />
+    <before>
+      <page name="Religion" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:33:54">
+    <page name="ReasonCeased" />
+    <before>
+      <page name="State" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:34:01">
+    <page name="Relationship" />
+    <before>
+      <page name="ReasonCeased" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:34:08">
+    <page name="Race" />
+    <before>
+      <page name="MedicalCenters" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T03:34:08">
+    <page name="Race" />
+    <before>
+      <page name="MedicationType" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T23:22:50">
+    <page name="Security" />
+    <before>
+      <page name="Invoice" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-24T23:22:57">
+    <page name="BasicCode2" />
+    <before>
+      <page name="Invoice" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:22:55">
+    <page name="PatientBloodTest" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:22:55">
+    <page name="Expenses" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:22:55">
+    <page name="InvDetail" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:22:55">
+    <page name="MedicationHistory" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:22:58">
+    <page name="Rubbish" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:23:34">
+    <page name="Home" />
+    <container id="container1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T00:59:04">
+    <userControl name="Welcome" />
+    <update>
+      <Body>&lt;div style="padding-left:8px"&gt;&lt;div class="ParaInfo"&gt;
+        ^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^&lt;/div&gt;
+&lt;div class="ParaHeader"&gt;
+    ^SignInHeader^Instructions^SignInHeader^
+&lt;/div&gt;
+&lt;div class="ParaText"&gt;
+    ^SignInPara1^Two standard user accounts are automatically created when application is initialized
+    if membership option has been selected for this application.^SignInPara1^
+&lt;/div&gt;
+                  
+&lt;div class="ParaText"&gt;
+    ^SignInPara2^The administrative account &lt;b&gt;admin&lt;/b&gt; is authorized to access all areas of the
+    web site and membership manager. The standard &lt;b&gt;user&lt;/b&gt; account is allowed to
+    access all areas of the web site with the exception of membership manager.^SignInPara2^&lt;/div&gt;
+                
+                  
+&lt;div class="ParaText"&gt;
+    ^SignInPara3^Move the mouse pointer over the link &lt;i&gt;Login to this web site&lt;/i&gt; on the right-hand side
+    at the top of the page and sign in with one of the accounts listed below.^SignInPara3^&lt;/div&gt;
+                
+&lt;div class="ParaText"&gt;
+    &lt;div style="border: solid 1px black; background-color: InfoBackground; padding: 8px;
+        float: left;"&gt;
+        ^AdminDesc^Administrative account^AdminDesc^:&lt;br /&gt;
+        &lt;b title="User Name"&gt;admin&lt;/b&gt; / &lt;b title="Password"&gt;admin123%&lt;/b&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        ^UserDesc^Standard user account^UserDesc^:&lt;br /&gt;
+        &lt;b title="User Name"&gt;user&lt;/b&gt; / &lt;b title="Password"&gt;user123%&lt;/b&gt;
+    &lt;/div&gt;
+    &lt;div style="clear:both;margin-bottom:8px"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="app-welcome" data-app-role="page" data-activator="Button|^SignInHeader^Instructions^SignInHeader^" data-activator-description="^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^"&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login Status&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T01:50:37">
+    <page name="Home" />
+    <container id="container2" />
+    <insert type="dataView">
+      <Controller>LoginScreen</Controller>
+      <View>MyLogin</View>
+      <ShowInSummary>false</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:27:03">
+    <userControls />
+    <insert type="userControl">
+      <Name>myLogin</Name>
+      <Prefix>uc</Prefix>
+      <Generate>FirstTimeOnly</Generate>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:27:16">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|^SignInHeader^Instructions^SignInHeader^" data-activator-description="^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^"&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login Status&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:42:10">
+    <page name="Home" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:42:27">
+    <page name="Home" />
+    <container id="c101" />
+    <move>
+      <page name="Home" />
+      <dataView id="view1" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:42:48">
+    <page name="Home" />
+    <dataView id="view1" />
+    <update>
+      <ShowModalForms>true</ShowModalForms>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:49:01">
+    <page name="Home" />
+    <dataView id="view1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:49:18">
+    <page name="Home" />
+    <container id="c101" />
+    <insert type="control">
+      <UserControl>myLogin</UserControl>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:49:58">
+    <page name="Home" />
+    <control id="control2" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:50:52">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|^SignInHeader^Sign In^SignInHeader^" data-activator-description="^SignInInstruction^Sign in to access the protected site content.^SignInInstruction^"&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login Status&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:53:14">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T03:53:18">
+    <userControl name="myLogin" />
+    <update>
+      <Generate>Always</Generate>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T04:02:25">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T04:05:52">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T04:07:42">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T04:16:14">
+    <page name="Tasks" />
+    <dataView id="view1" />
+    <update>
+      <View>createForm1</View>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T04:27:12">
+    <page name="Home" />
+    <container id="c101" />
+    <insert type="dataView">
+      <Controller>LoginScreen</Controller>
+      <View>MyLogin</View>
+      <ShowInSummary>false</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-25T15:27:54">
+    <page name="Home" />
+    <update>
+      <Template>Three Columns</Template>
+      <UseExtenders>false</UseExtenders>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T15:32:15">
+    <page name="Home" />
+    <update>
+      <Template>Starter Template</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T16:16:25">
+    <page name="Home" />
+    <update>
+      <Template>Sections</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T16:18:07">
+    <page name="Home" />
+    <update>
+      <Template>Carousel</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-25T16:19:20">
+    <page name="Home" />
+    <update>
+      <Generate>FirstTimeOnly</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:21:55">
+    <page name="Home" />
+    <dataView id="view1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:23:07">
+    <page name="Home" />
+    <update>
+      <Template />
+      <Generate>Always</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:23:42">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;!-- Carousel ================================================== --&gt;
+    &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+        &lt;!-- Indicators --&gt;
+        &lt;ol class="carousel-indicators"&gt;
+            &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+           &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+            &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+        &lt;/ol&gt;
+        &lt;div class="carousel-inner"&gt;
+             &lt;div class="item active"&gt;
+                &lt;img src="../images/carousell-01.jpg"
+                    alt="First slide" style="height: 100%"/&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="carousel-caption"&gt;
+                        &lt;h1 data-editable="true"&gt;
+                            &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                            Welcome To AuroraPDMS.&lt;/h1&gt;
+                        &lt;p data-editable="true"&gt;
+                            AuroraPDMS help you to manage dialysys management
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                            &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;
+                            
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;%--&lt;div class="item active"&gt;
+                &lt;img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Second slide" style="height: 100%"/&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="carousel-caption"&gt;
+                        &lt;h1 data-editable="true"&gt;
+                            &lt;span class="glyphicon glyphicon-bullhorn"&gt;&lt;/span&gt;
+                            Example headline.&lt;/h1&gt;
+                        &lt;p data-editable="true"&gt;
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                            porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Sign up today &amp;raquo;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+           
+            &lt;div class="item"&gt;
+                &lt;img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Third slide" style="height: 100%"/&gt;
+                &lt;div class="container"&gt;
+                    &lt;div class="carousel-caption"&gt;
+                        &lt;h1 data-editable="true"&gt;
+                            &lt;span class="glyphicon glyphicon-briefcase"&gt;&lt;/span&gt;
+                            One more for good measure.&lt;/h1&gt;
+                        &lt;p data-editable="true"&gt;
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                            porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Browse gallery &amp;raquo;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;--%&gt;
+        &lt;/div&gt;
+        &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+            &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;
+                &lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;!-- /.carousel --&gt;
+    &lt;!-- Marketing messaging and featurettes ======================== --&gt;
+    &lt;!-- Wrap the rest of the page in another container to center all the content. --&gt;
+    &lt;div class="container marketing"&gt;
+        &lt;!-- Three columns of text below the carousel --&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;img class="img-circle" src="../images/icon-patient.png"
+                    alt="Generic placeholder image" style="width: 140px; height: 140px;"/&gt;
+                &lt;h2 data-editable="true"&gt;
+                    Patient&lt;/h2&gt;
+                &lt;p data-editable="true"&gt;
+                    Patient Info, Blood Test Record, Sponsor Info
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;!-- /.col-sm-4 --&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;img class="img-circle" src="../images/icon-schedule.png"
+                    alt="Generic placeholder image" style="width: 140px; height: 140px;"/&gt;
+                &lt;h2 data-editable="true"&gt;
+                    Schedule&lt;/h2&gt;
+                &lt;p data-editable="true"&gt;
+                    Treatment Schedule
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;!-- /.col-sm-4 --&gt;
+            &lt;div class="col-sm-4"&gt;
+                &lt;img class="img-circle" src="../images/icon-treatment.png"
+                    alt="Generic placeholder image" style="width: 140px; height: 140px;"/&gt;
+                &lt;h2 data-editable="true"&gt;
+                    Treatment&lt;/h2&gt;
+                &lt;p data-editable="true"&gt;
+                    Treatment Info, Expenses
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;!-- /.col-sm-4 --&gt;
+        &lt;/div&gt;
+        &lt;!-- /.row --&gt;
+      &lt;%--  &lt;!-- START THE FEATURETTES --&gt;
+        &lt;hr class="featurette-divider"/&gt;
+        &lt;div class="row featurette"&gt;
+            &lt;div class="col-md-7"&gt;
+                &lt;h2 class="featurette-heading" data-editable="true"&gt;
+                    &lt;span class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;
+                    First featurette heading. &lt;span
+                        class="text-muted"&gt;It'll blow your mind.&lt;/span&gt;
+                &lt;/h2&gt;
+                &lt;p class="lead" data-editable="true"&gt;
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Fusce dapibus, tellus ac cursus commodo.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-5"&gt;
+                &lt;img class="featurette-image img-responsive" src="../placeholder/eeeeee-aaaaaa-500.png"
+                    alt="Generic placeholder image"/&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr class="featurette-divider"/&gt;
+        &lt;div class="row featurette"&gt;
+            &lt;div class="col-md-7 col-md-push-5"&gt;
+                &lt;h2 class="featurette-heading" data-editable="true"&gt;
+                    &lt;span class="glyphicon glyphicon-thumbs-up"&gt;&lt;/span&gt;
+                    Oh yeah, it's that good. &lt;span
+                        class="text-muted"&gt;See for yourself.&lt;/span&gt;
+                &lt;/h2&gt;
+                &lt;p class="lead" data-editable="true"&gt;
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Fusce dapibus, tellus ac cursus commodo.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-5 col-md-pull-7"&gt;
+                &lt;img class="featurette-image img-responsive" src="../placeholder/eeeeee-aaaaaa-500.png"
+                    alt="Generic placeholder image"/&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr class="featurette-divider"/&gt;
+        &lt;div class="row featurette"&gt;
+            &lt;div class="col-md-7"&gt;
+                &lt;h2 class="featurette-heading" data-editable="true"&gt;
+                    &lt;span class="glyphicon glyphicon-check"&gt;&lt;/span&gt;
+                    And lastly, this one. &lt;span class="text-muted"&gt;
+                        Checkmate.&lt;/span&gt;
+                &lt;/h2&gt;
+                &lt;p class="lead" data-editable="true"&gt;
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Fusce dapibus, tellus ac cursus commodo.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-5"&gt;
+                &lt;img class="featurette-image img-responsive" src="../placeholder/eeeeee-aaaaaa-500.png"
+                    alt="Generic placeholder image"/&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr class="featurette-divider"/&gt;
+        &lt;!-- /END THE FEATURETTES --&gt;--%&gt;
+    &lt;/div&gt;
+    &lt;!-- /.container --&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:27:54">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+
+	&lt;ol class="carousel-indicators"&gt;
+		&lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;div class="carousel-inner"&gt;
+		&lt;div class="item active"&gt;
+			&lt;img src="../images/carousell-01.jpg" alt="First slide" style="height: 100%"/&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1 data-editable="true"&gt;
+					&lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+					Welcome To AuroraPDMS.&lt;/h1&gt;
+					&lt;p data-editable="true"&gt;AuroraPDMS help you to manage dialysys management&lt;/p&gt;
+					&lt;p&gt;&lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:30:46">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:31:45">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+  &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+
+	&lt;ol class="carousel-indicators"&gt;
+		&lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;div class="carousel-inner"&gt;
+		&lt;div class="item active"&gt;
+			&lt;img src="../images/carousell-01.jpg" alt="First slide" style="height: 100%"/&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1 data-editable="true"&gt;
+					&lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+					Welcome To AuroraPDMS.&lt;/h1&gt;
+					&lt;p data-editable="true"&gt;AuroraPDMS help you to manage dialysys management&lt;/p&gt;
+					&lt;p&gt;&lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:33:12">
+    <userControl name="myLogin" />
+    <update>
+      <Generate>FirstTimeOnly</Generate>
+      <Body>&lt;div id="app-welcome" data-app-role="page" data-activator="Button|Log Masuk" data-activator-description=""&gt;
+      &lt;p&gt;&lt;a href="#" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+  &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+
+	&lt;ol class="carousel-indicators"&gt;
+		&lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;div class="carousel-inner"&gt;
+		&lt;div class="item active"&gt;
+			&lt;img src="../images/carousell-01.jpg" alt="First slide" style="height: 100%"/&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1 data-editable="true"&gt;
+					&lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+					Welcome To AuroraPDMS.&lt;/h1&gt;
+					&lt;p data-editable="true"&gt;AuroraPDMS help you to manage dialysys management&lt;/p&gt;
+					&lt;p&gt;&lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:38:03">
+    <page name="Home" />
+    <update>
+      <Template>Carousel</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:38:33">
+    <page name="Home" />
+    <update>
+      <Generate>FirstTimeOnly</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:41:40">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div data-app-role="page" data-activator="Button|CONTROL_ID_PRETTY" data-content-framework="bootstrap"&gt;
+
+        &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+            &lt;!-- Indicators --&gt;
+            &lt;ol class="carousel-indicators"&gt;
+                &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+            &lt;/ol&gt;
+            &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;
+                    &lt;img src="../images/carousell-01.jpg"
+                        alt="First slide" style="height: 100%" /&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="carousel-caption"&gt;
+                            &lt;h1 data-editable="true"&gt;
+                                &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                                Welcome To AuroraPDMS.&lt;/h1&gt;
+                            &lt;p data-editable="true"&gt;
+                                AuroraPDMS help you to manage dialysys management
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                                &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;
+
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+                &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                    href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container marketing"&gt;
+            &lt;!-- Three columns of text below the carousel --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-patient.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Patient&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Patient Info, Blood Test Record, Sponsor Info
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-schedule.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Schedule&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Schedule
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-treatment.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Treatment&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Info, Expenses
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.row --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:41:46">
+    <userControl name="myLogin" />
+    <update>
+      <Generate>Always</Generate>
+      <Body>&lt;div data-app-role="page" data-activator="Button|CONTROL_ID_PRETTY" data-content-framework="bootstrap"&gt;
+
+        &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+            &lt;!-- Indicators --&gt;
+            &lt;ol class="carousel-indicators"&gt;
+                &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+            &lt;/ol&gt;
+            &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;
+                    &lt;img src="../images/carousell-01.jpg"
+                        alt="First slide" style="height: 100%" /&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="carousel-caption"&gt;
+                            &lt;h1 data-editable="true"&gt;
+                                &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                                Welcome To AuroraPDMS.&lt;/h1&gt;
+                            &lt;p data-editable="true"&gt;
+                                AuroraPDMS help you to manage dialysys management
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                                &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Log Masuk&lt;/a&gt;
+
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+                &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                    href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container marketing"&gt;
+            &lt;!-- Three columns of text below the carousel --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-patient.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Patient&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Patient Info, Blood Test Record, Sponsor Info
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-schedule.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Schedule&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Schedule
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-treatment.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Treatment&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Info, Expenses
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.row --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:41:52">
+    <page name="Home" />
+    <update>
+      <Template />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:51:16">
+    <pages />
+    <insert type="page">
+      <Name>Dashboard</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Dashboard</Path>
+      <Title>Dashboard</Title>
+      <CustomStyle>Wide</CustomStyle>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:51:39">
+    <page name="Dashboard" />
+    <copyRef type="controller">
+      <Controller>Dashboards</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:52:17">
+    <page name="Dashboard" />
+    <dataView id="view1" />
+    <update>
+      <ShowActionButtons>None</ShowActionButtons>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:53:31">
+    <page name="Home" />
+    <container id="c101" />
+    <copy>
+      <page name="Dashboard" />
+      <dataView id="view1" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:54:00">
+    <page name="Home" />
+    <update>
+      <Generate>Always</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:54:54">
+    <page name="Home" />
+    <move>
+      <page name="Home" />
+      <dataView id="view1" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-26T15:55:32">
+    <page name="Home" />
+    <dataView id="view1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-26T16:57:32">
+    <pages />
+    <insert type="page">
+      <Name>Invoice2</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Invoice 2</Path>
+      <Title>Invoice 2</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-26T16:57:36">
+    <page name="Invoice2" />
+    <move>
+      <page name="BasicCode2" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-26T16:57:48">
+    <page name="Invoice2" />
+    <before>
+      <page name="BasicCode2" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-26T16:57:52">
+    <page name="Invoice2" />
+    <move>
+      <page name="Invoice" />
+      <container id="container1" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-03-26T16:59:30">
+    <page name="Invoice" />
+    <copy>
+      <page name="Invoice2" />
+      <container id="container1" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-03-26T18:02:43">
+    <page name="Patient" />
+    <dataView id="view1" />
+    <update>
+      <Tag>view-style-calendar</Tag>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-28T02:33:14">
+    <pages />
+    <insert type="page">
+      <Name>Patient2</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Patient 2</Path>
+      <Title>Patient 2</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-03-28T02:33:23">
+    <page name="Patient2" />
+    <copy>
+      <page name="Patient" />
+      <container id="container1" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-03-28T02:50:00">
+    <page name="Patient2" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-28T15:58:43">
+    <page name="Invoice2" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-28T15:58:55">
+    <page name="InvoiceDtl" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-28T15:59:04">
+    <page name="BasicCode2" />
+    <before>
+      <page name="Tasks" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-28T15:59:08">
+    <page name="Dashboard" />
+    <before>
+      <page name="BasicCode2" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-03-29T01:07:19">
+    <page name="ReportInvoice" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-29T01:07:23">
+    <page name="Tasks" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-03-29T01:15:36">
+    <page name="BasicCode2" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-29T01:22:01">
+    <page name="Security" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-03-29T16:48:37">
+    <page name="VwInvoicePrint" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-03T10:55:00">
+    <page name="Home" />
+    <update>
+      <Title>^HomeTitle^AuroraPDMS^HomeTitle^</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-03T10:55:35">
+    <page name="Home" />
+    <update>
+      <Title>AuroraPDMS</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-03T10:55:52">
+    <page name="Home" />
+    <update>
+      <Description>AuroraPDMS Homepage</Description>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-04T11:14:35">
+    <page name="Home" />
+    <update>
+      <Generate>FirstTimeOnly</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-04T17:15:32">
+    <page name="DialysisMachine1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-09T11:53:44">
+    <page name="Patient" />
+    <dataView id="view1" />
+    <update>
+      <Tag>view-style-list</Tag>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-09T17:54:31">
+    <pages />
+    <insert type="page">
+      <Name>MachineSearch</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Machine Search</Path>
+      <Title>Machine Search</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-09T17:54:57">
+    <page name="MachineSearch" />
+    <copyRef type="controller">
+      <Controller>MachineAvailableSearch</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-09T17:55:17">
+    <page name="MachineSearch" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:01:23">
+    <pages />
+    <deleteRefs type="controller">
+      <Name>MachineAvailableSearch</Name>
+    </deleteRefs>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:03:54">
+    <page name="MachineSearch" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:04:57">
+    <pages />
+    <insert type="page">
+      <Name>MachineSearch</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Machine Search</Path>
+      <Title>Machine Search</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:05:04">
+    <page name="MachineSearch" />
+    <copyRef type="controller">
+      <Controller>MachineAvailableSearch</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:05:44">
+    <page name="MachineSearch" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:07:16">
+    <page name="MachineSearch" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:09:30">
+    <pages />
+    <insert type="page">
+      <Name>MachineSearchA</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Machine Search A</Path>
+      <Title>Machine Search A</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:09:50">
+    <page name="MachineSearchA" />
+    <copyRef type="controller">
+      <Controller>MachineSearch</Controller>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-09T18:27:49">
+    <page name="MachineSearchA" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-10T16:45:04">
+    <page name="Treatment" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <Description />
+      <CustomStyle>material-icon-assignment-ind</CustomStyle>
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-10T16:46:00">
+    <page name="Treatment" />
+    <update>
+      <CustomStyle>material-icon-favorite</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-11T10:01:18">
+    <page name="BasicCode2" />
+    <move>
+      <page name="Dialyzer" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-11T10:01:22">
+    <page name="ExpenseType" />
+    <move>
+      <page name="Dialyzer" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-11T10:01:25">
+    <page name="ExpenseType" />
+    <before>
+      <page name="Dialyzer" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-16T01:22:55">
+    <page name="ReceiptPaymentDtl" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:29:45">
+    <pages />
+    <insert type="page">
+      <Name>Payment</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Payment</Path>
+      <Title>Payment</Title>
+      <CustomStyle>material-icon-payment</CustomStyle>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:29:53">
+    <page name="ReceiptPayment" />
+    <before>
+      <page name="Payment" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:29:57">
+    <page name="Payment" />
+    <move>
+      <page name="ReceiptPayment" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:29:57">
+    <page name="Payment" />
+    <move>
+      <page name="DebtPayment" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:32:40">
+    <page name="Schedule" />
+    <before>
+      <page name="PatientDialyzer" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-17T10:33:03">
+    <page name="BasicCode2" />
+    <before>
+      <page name="Security" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-18T01:11:49">
+    <page name="Patient1" />
+    <update>
+      <Name>TreatmentByPatient</Name>
+      <UseExtenders>false</UseExtenders>
+      <Title>Treatment History</Title>
+      <Description />
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:35:19">
+    <pages />
+    <insert type="page">
+      <Name>TreatmentSearch</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Treatment Search</Path>
+      <Title>Treatment Search</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:35:24">
+    <page name="TreatmentSearch" />
+    <copyRef type="controller">
+      <Controller>TreatmentSearch</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:35:49">
+    <page name="TreatmentSearch" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:49:26">
+    <pages />
+    <deleteRefs type="controller">
+      <Name>TreatmentSearch</Name>
+    </deleteRefs>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:49:34">
+    <page name="TreatmentSearch" />
+    <container id="c101" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:50:45">
+    <page name="TreatmentSearch" />
+    <copyRef type="controller">
+      <Controller>TreatmentSearch</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-18T02:50:56">
+    <page name="TreatmentSearch" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:03:02">
+    <pages />
+    <deleteRefs type="controller">
+      <Name>TreatmentSearch</Name>
+    </deleteRefs>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:08:28">
+    <page name="DebtPayment" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <Title>Debt Payment Entry</Title>
+      <Description />
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:08:35">
+    <page name="DebtPayment" />
+    <update>
+      <Name>DebtPaymentEntry</Name>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:08:44">
+    <page name="DebtPaymentEntry" />
+    <rename>Debt Payment Entry</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:08:50">
+    <page name="Payment" />
+    <move>
+      <page name="DebtPaymentHdr" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:09:14">
+    <page name="DebtPaymentHdr" />
+    <update>
+      <Name>DebtPaymentRecord</Name>
+      <UseExtenders>false</UseExtenders>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:09:28">
+    <page name="DebtPaymentRecord" />
+    <update>
+      <Title>Debt Payment Record</Title>
+      <Description />
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T12:09:36">
+    <page name="DebtPaymentRecord" />
+    <rename>Debt Payment Record</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:10:48">
+    <pages />
+    <insert type="page">
+      <Name>RND</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>RND</Path>
+      <Title>RND</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:03">
+    <page name="RND" />
+    <move>
+      <page name="DebtPaymentRel" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:03">
+    <page name="RND" />
+    <move>
+      <page name="VwReceiptIndPrint" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:03">
+    <page name="RND" />
+    <move>
+      <page name="VwBloodTestDrRpt" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:03">
+    <page name="RND" />
+    <move>
+      <page name="TreatmentByPatient" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:03">
+    <page name="RND" />
+    <move>
+      <page name="TreatmentSearch" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:11:10">
+    <page name="Security" />
+    <before>
+      <page name="Dashboard" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:12:46">
+    <page name="Payment" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:12:51">
+    <page name="Dashboard" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T14:12:58">
+    <page name="RND" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-18T17:39:11">
+    <page name="RND" />
+    <move>
+      <page name="VwReceiptIndDebtPrint" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-19T13:58:40">
+    <page name="TreatmentByPatient" />
+    <rename>Treatment History</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-19T13:58:57">
+    <page name="Invoice" />
+    <before>
+      <page name="TreatmentByPatient" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-19T13:59:21">
+    <pages />
+    <insert type="page" context="/page/TreatmentByPatient">
+      <Name>History</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>History</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-19T14:00:47">
+    <page name="History" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-19T14:00:52">
+    <page name="Treatment" />
+    <move>
+      <page name="TreatmentByPatient" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-19T14:00:55">
+    <page name="Patient" />
+    <move>
+      <page name="PatientDialyzer" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-22T02:39:12">
+    <page name="RND" />
+    <move>
+      <page name="VwInvoicePrintSummary" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-22T02:39:22">
+    <page name="RND" />
+    <move>
+      <page name="InvoiceDtlSmry" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:01">
+    <pages />
+    <insert type="page" context="/page/TreatmentSearch">
+      <Name>form1</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>form 1</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="DebtPaymentRel" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="VwReceiptIndPrint" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="VwBloodTestDrRpt" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="TreatmentSearch" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="VwReceiptIndDebtPrint" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="VwInvoicePrintSummary" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:43:43">
+    <page name="InvoiceDtlSmry" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:54:54">
+    <pages />
+    <insert type="page" context="/page/RND">
+      <Name>PatientSearch</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Patient Search</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:54:56">
+    <page name="PatientSearch" />
+    <copyRef type="controller">
+      <Controller>PatientSearch</Controller>
+      <View>form1</View>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-04-22T03:55:15">
+    <page name="PatientSearch" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-22T22:17:15">
+    <page name="RND" />
+    <move>
+      <page name="VwInvoicePrintSummaryByPatient" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:35:00">
+    <page name="PatientDialyzer" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <CustomStyle>material-icon-assignment-ind</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:35:06">
+    <page name="PatientDialyzer" />
+    <update>
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:36:54">
+    <pages />
+    <insert type="page">
+      <Name>PatientModule</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Patient Module</Path>
+      <Title>Patient Module</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:37:00">
+    <page name="Patient" />
+    <before>
+      <page name="PatientModule" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:37:33">
+    <page name="PatientModule" />
+    <move>
+      <page name="Patient" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:37:36">
+    <page name="PatientModule" />
+    <move>
+      <page name="PatientDialyzer" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:37:49">
+    <page name="PatientModule" />
+    <update>
+      <CustomStyle>material-icon-assignment-ind</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:38:32">
+    <page name="Patient" />
+    <update>
+      <Title>Patient Master</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:38:40">
+    <page name="Patient" />
+    <update>
+      <Name>PatientMaster</Name>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:38:47">
+    <page name="PatientMaster" />
+    <rename>Patient Master</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:38:58">
+    <page name="PatientModule" />
+    <rename>Patient</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:40:14">
+    <page name="PatientMaster" />
+    <update>
+      <CustomStyle>material-icon-account box</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:42:42">
+    <page name="PatientMaster" />
+    <update>
+      <CustomStyle>material-icon-account-heart</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:43:35">
+    <page name="PatientMaster" />
+    <update>
+      <CustomStyle>material-icon-account</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:44:07">
+    <page name="PatientMaster" />
+    <update>
+      <CustomStyle>material-icon-assignment-ind</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:45:08">
+    <page name="PatientMaster" />
+    <update>
+      <CustomStyle>material-icon-supervisor-account</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:48:51">
+    <page name="PatientDialyzer" />
+    <update>
+      <CustomStyle>material-icon-opacity</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:49:42">
+    <page name="PatientModule" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T15:50:37">
+    <page name="PatientModule" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:28:04">
+    <page name="PatientModule" />
+    <update>
+      <Url>about:blank</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:32:09">
+    <page name="PatientModule" />
+    <update>
+      <Roles>*</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:34:04">
+    <pages />
+    <insert type="page">
+      <Name>TreatmentModule</Name>
+      <Url>about:blank</Url>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Treatment Module</Path>
+      <Title>Treatment Module</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:34:08">
+    <page name="Treatment" />
+    <before>
+      <page name="TreatmentModule" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:34:11">
+    <page name="TreatmentModule" />
+    <move>
+      <page name="Treatment" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:34:13">
+    <page name="TreatmentModule" />
+    <move>
+      <page name="TreatmentByPatient" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:34:25">
+    <page name="TreatmentModule" />
+    <update>
+      <CustomStyle>material-icon-favorite</CustomStyle>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:35:34">
+    <page name="Treatment" />
+    <rename>Treatment Master</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:35:39">
+    <page name="TreatmentModule" />
+    <rename>Treatment</rename>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:35:56">
+    <page name="Treatment" />
+    <update>
+      <Name>TreatmentMaster</Name>
+      <Title>Treatment Master</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:36:50">
+    <page name="TreatmentByPatient" />
+    <update>
+      <CustomStyle>find-in-page</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:37:02">
+    <page name="TreatmentByPatient" />
+    <update>
+      <CustomStyle>material-icon-find-in-page</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:37:28">
+    <page name="TreatmentMaster" />
+    <update>
+      <CustomStyle>material-icon-assignment</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:39:13">
+    <page name="TreatmentModule" />
+    <update>
+      <Roles>*</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:40:03">
+    <page name="Payment" />
+    <update>
+      <Url>about:blank</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:40:32">
+    <page name="Payment" />
+    <update>
+      <Roles>*</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:41:20">
+    <page name="ReceiptPayment" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <Description />
+      <CustomStyle>material-icon-receipt</CustomStyle>
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:42:06">
+    <page name="DebtPaymentEntry" />
+    <update>
+      <CustomStyle>material-icon-assignment-late</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T16:43:29">
+    <page name="DebtPaymentRecord" />
+    <update>
+      <CustomStyle>material-icon-assignment-turned-in</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:07:05">
+    <page name="PatientModule" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:07:14">
+    <page name="PatientModule" />
+    <update>
+      <Url>PatientMaster.aspx</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:08:25">
+    <page name="PatientModule" />
+    <update>
+      <Url>Pages/PatientMaster.aspx</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:08:58">
+    <page name="PatientModule" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:09:47">
+    <page name="TreatmentModule" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:09:52">
+    <page name="Payment" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:09:59">
+    <page name="Security" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:10:03">
+    <page name="BasicCode2" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:10:07">
+    <page name="RND" />
+    <update>
+      <Url>#</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:10:19">
+    <page name="PatientModule" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:10:26">
+    <page name="TreatmentModule" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:10:30">
+    <page name="Payment" />
+    <update>
+      <Roles />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:10">
+    <page name="Payment" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:14">
+    <page name="Security" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:17">
+    <page name="BasicCode2" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:20">
+    <page name="RND" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:25">
+    <page name="PatientModule" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:11:29">
+    <page name="TreatmentModule" />
+    <update>
+      <Url />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:12:16">
+    <page name="RND" />
+    <update>
+      <Template>(blank)</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:12:51">
+    <page name="RND" />
+    <update>
+      <Template>Thumbnails</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-23T19:13:31">
+    <page name="RND" />
+    <update>
+      <Template />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-24T00:34:46">
+    <page name="RND" />
+    <move>
+      <page name="VwBloodTestDr" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-24T10:52:44">
+    <page name="RND" />
+    <after>
+      <page name="VwBloodTestChart" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-04-24T10:52:46">
+    <page name="RND" />
+    <move>
+      <page name="VwBloodTestChart" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-24T14:27:25">
+    <page name="RND" />
+    <move>
+      <page name="VwSuratPengesahan" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-24T16:52:25">
+    <page name="RND" />
+    <move>
+      <page name="VwSuratTuntutanTunggakan" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-04-24T17:59:40">
+    <page name="RND" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-24T18:14:05">
+    <page name="RND" />
+    <update>
+      <Url>about:blank</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-04-25T01:00:38">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div data-app-role="page" data-activator="Button|CONTROL_ID_PRETTY" data-content-framework="bootstrap"&gt;
+
+        &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+            &lt;!-- Indicators --&gt;
+            &lt;ol class="carousel-indicators"&gt;
+                &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+            &lt;/ol&gt;
+            &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;
+                    &lt;img src="../images/carousell-01.jpg"
+                        alt="First slide" style="height: 100%" /&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="carousel-caption"&gt;
+                            &lt;h1 data-editable="true"&gt;
+                                &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                                Welcome To AuroraPDMS.&lt;/h1&gt;
+                            &lt;p data-editable="true"&gt;
+                                AuroraPDMS help you to manage dialysys management
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                                &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login&lt;/a&gt;
+
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+                &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                    href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container marketing"&gt;
+            &lt;!-- Three columns of text below the carousel --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-patient.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Patient&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Patient Info, Blood Test Record, Sponsor Info
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-schedule.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Schedule&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Schedule
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-treatment.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Treatment&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Info, Expenses
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.row --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-03T01:32:58">
+    <page name="Security" />
+    <move>
+      <page name="Users" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-03T01:32:58">
+    <page name="Security" />
+    <move>
+      <page name="UserRoles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-03T01:32:58">
+    <page name="Security" />
+    <move>
+      <page name="Roles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:02:00">
+    <page name="Users" />
+    <container id="container1" />
+    <insert type="dataView">
+      <Controller>Roles</Controller>
+      <View>grid1</View>
+      <ShowInSummary>true</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:02:46">
+    <page name="Users" />
+    <dataView id="view1" />
+    <update>
+      <Activator>Tab</Activator>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:02:50">
+    <page name="Users" />
+    <dataView id="view2" />
+    <update>
+      <Activator>Tab</Activator>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:05:58">
+    <page name="Users" />
+    <dataView id="view1" />
+    <update>
+      <Text>Users</Text>
+      <Sequence>1</Sequence>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:06:07">
+    <page name="Users" />
+    <dataView id="view2" />
+    <update>
+      <Text>Roles</Text>
+      <Sequence>2</Sequence>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:53:03">
+    <page name="UserRoles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-03T02:53:03">
+    <page name="Roles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-04T15:32:26">
+    <page name="PatientMedicine" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-06T23:13:30">
+    <page name="PatientMaster" />
+    <update>
+      <Title>Patiet Record</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-06T23:13:35">
+    <page name="PatientMaster" />
+    <rename>Patiet Record</rename>
+  </c>
+  <c y="NodeSet" t="2018-05-06T23:14:31">
+    <page name="TreatmentModule" />
+    <move>
+      <page name="PatientDialyzer" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-06T23:14:40">
+    <page name="Sponsor" />
+    <rename>Funding</rename>
+  </c>
+  <c y="NodeSet" t="2018-05-06T23:14:45">
+    <page name="Sponsor" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <Title>Funding</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T19:47:38">
+    <pages />
+    <insert type="page">
+      <Name>DebtPayment</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Debt Payment</Path>
+      <Title>Debt Payment</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T19:48:32">
+    <page name="Dashboard" />
+    <before>
+      <page name="DebtPayment" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:06:07">
+    <page name="DebtPayment" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+      <Width>50%</Width>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:06:25">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <update>
+      <Width />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:07:09">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <copyRef type="controller">
+      <Controller>Debts</Controller>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:07:19">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <copyRef type="controller">
+      <Controller>Payments</Controller>
+    </copyRef>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:09:13">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <Activator>SideBarTask</Activator>
+      <Text>Debts</Text>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:09:21">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <Activator>SideBarTask</Activator>
+      <Text>Payments</Text>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:10:44">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <Activator>Tab</Activator>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:10:50">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <Activator>Tab</Activator>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:20:48">
+    <page name="DebtPayment" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:20:51">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <before>
+      <page name="DebtPayment" />
+      <container id="c102" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:21:43">
+    <page name="DebtPayment" />
+    <container id="c102" />
+    <insert type="dataView">
+      <Controller>Patient1</Controller>
+      <View>grid1</View>
+      <ShowInSummary>false</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:27:09">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <move>
+      <page name="DebtPayment" />
+      <dataView id="view3" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:27:12">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <before>
+      <page name="DebtPayment" />
+      <dataView id="view3" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:27:17">
+    <page name="DebtPayment" />
+    <container id="c102" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:27:26">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <Activator>Tab</Activator>
+      <Text>Patient</Text>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:27:33">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <ShowActionButtons>None</ShowActionButtons>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:34:35">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <Controller>PatientDebtPayment</Controller>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:37:03">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <FilterSource>view3</FilterSource>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:37:21">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <View />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:37:31">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <FilterSource>view3</FilterSource>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:43:00">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <FilterSource />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:43:10">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <FilterSource />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:46:44">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <View>grid1</View>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:47:42">
+    <page name="DebtPayment" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+      <CssStyle>padding-top:8px;</CssStyle>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:47:49">
+    <page name="DebtPayment" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+      <CssStyle>padding-top:8px;</CssStyle>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:48:25">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <update>
+      <PageSize>5</PageSize>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:48:28">
+    <page name="DebtPayment" />
+    <container id="c102" />
+    <move>
+      <page name="DebtPayment" />
+      <dataView id="view1" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:48:31">
+    <page name="DebtPayment" />
+    <container id="c103" />
+    <move>
+      <page name="DebtPayment" />
+      <dataView id="view2" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:49:01">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <View>grid1</View>
+      <PageSize>5</PageSize>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:50:15">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <ShowViewSelector>false</ShowViewSelector>
+      <FilterSource>view3</FilterSource>
+      <FilterFields>PatientFK</FilterFields>
+      <AutoHide>Container</AutoHide>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:50:55">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <View>grid1</View>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:51:21">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <PageSize>5</PageSize>
+      <ShowViewSelector>false</ShowViewSelector>
+      <FilterSource>view3</FilterSource>
+      <FilterFields>PatientFK</FilterFields>
+      <AutoHide>Container</AutoHide>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:52:40">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:52:44">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:52:49">
+    <page name="DebtPayment" />
+    <dataView id="view3" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:53:35">
+    <page name="DebtPayment" />
+    <container id="c101" />
+    <insert type="dataView">
+      <Controller>PatientDebtPayment</Controller>
+      <View>grid1</View>
+      <ShowInSummary>false</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:54:46">
+    <page name="DebtPayment" />
+    <dataView id="view1" />
+    <update>
+      <Controller>Patient</Controller>
+      <ShowInSummary>true</ShowInSummary>
+      <PageSize>5</PageSize>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:55:20">
+    <page name="DebtPayment" />
+    <container id="c102" />
+    <insert type="dataView">
+      <Controller>Debts</Controller>
+      <View>grid1</View>
+      <Text>Debts</Text>
+      <ShowInSummary>false</ShowInSummary>
+      <PageSize>5</PageSize>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:55:26">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <ShowViewSelector>false</ShowViewSelector>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:55:55">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <FilterSource>view1</FilterSource>
+      <FilterFields>PatientFK</FilterFields>
+      <AutoHide>Container</AutoHide>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-07T20:58:42">
+    <page name="DebtPayment" />
+    <dataView id="view2" />
+    <update>
+      <FilterSource />
+      <FilterFields />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-08T11:36:16">
+    <page name="PatientSearch" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-08T11:36:37">
+    <page name="RND" />
+    <move>
+      <page name="Debts" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-08T11:36:37">
+    <page name="RND" />
+    <move>
+      <page name="Payments" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-08T11:36:37">
+    <page name="RND" />
+    <move>
+      <page name="DebtPayment" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-08T12:04:06">
+    <page name="BasicCode2" />
+    <update>
+      <Roles>Administrators, Matron</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-08T12:09:26">
+    <page name="BasicCode2" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-08T19:43:47">
+    <pages />
+    <insert type="page" context="/page/Payment">
+      <Name>ExpensesMaster</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Expenses Master</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-08T19:43:50">
+    <page name="ReceiptPayment" />
+    <before>
+      <page name="ExpensesMaster" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-05-08T19:44:03">
+    <page name="ExpensesMaster" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-08T19:44:29">
+    <page name="ExpensesMaster" />
+    <container id="c101" />
+    <insert type="dataView">
+      <Controller>PatientExpenses</Controller>
+      <View>grid1</View>
+      <ShowInSummary>false</ShowInSummary>
+      <MultiSelect>false</MultiSelect>
+      <ShowActionBar>true</ShowActionBar>
+      <ShowDescription>true</ShowDescription>
+      <ShowViewSelector>true</ShowViewSelector>
+      <ShowSearchBar>true</ShowSearchBar>
+      <ShowQuickFind>true</ShowQuickFind>
+      <SearchByFirstLetter>false</SearchByFirstLetter>
+      <ShowRowNumber>false</ShowRowNumber>
+      <ShowPager>Bottom</ShowPager>
+      <ShowPageSize>true</ShowPageSize>
+      <ShowModalForms>false</ShowModalForms>
+      <SearchOnStart>false</SearchOnStart>
+      <ShowDetailsInListMode>true</ShowDetailsInListMode>
+      <AutoHighlightFirstRow>false</AutoHighlightFirstRow>
+      <AutoSelectFirstRow>false</AutoSelectFirstRow>
+      <AutoHide>Nothing</AutoHide>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-05-09T01:16:07">
+    <page name="RND" />
+    <move>
+      <page name="PaymentDtl" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-09T21:20:32">
+    <page name="ExpensesMaster" />
+    <update>
+      <CustomStyle>material-icon-attach-money</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-10T00:45:11">
+    <page name="RND" />
+    <move>
+      <page name="VwReceiptPaymentPh" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-10T03:07:17">
+    <page name="ReceiptPayment" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-10T03:28:27">
+    <page name="Payment" />
+    <move>
+      <page name="Refunds" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-10T03:48:36">
+    <page name="Refunds" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <CustomStyle>material-icon-assignment-return</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-10T12:09:09">
+    <page name="RND" />
+    <move>
+      <page name="VwRefundsReceipt" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-10T13:06:17">
+    <page name="RND" />
+    <move>
+      <page name="VwScheduledNotAttend" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-10T17:34:46">
+    <page name="RND" />
+    <move>
+      <page name="VwRekodRawatanHaemod" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-12T17:46:35">
+    <page name="PatientDialyzer1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-05-12T17:46:57">
+    <page name="RND" />
+    <move>
+      <page name="VwRekodRawatanHaemod2" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-13T11:34:56">
+    <userControl name="myLogin" />
+    <update>
+      <Body>&lt;div data-app-role="page" data-activator="Button|CONTROL_ID_PRETTY" data-content-framework="bootstrap"&gt;
+
+        &lt;div id="myCarousel" class="carousel carousel-md slide" data-ride="carousel"&gt;
+            &lt;!-- Indicators --&gt;
+            &lt;ol class="carousel-indicators"&gt;
+                &lt;li data-target="#myCarousel" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+                &lt;%-- &lt;li data-target="#myCarousel" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#myCarousel" data-slide-to="2"&gt;&lt;/li&gt;--%&gt;
+            &lt;/ol&gt;
+            &lt;div class="carousel-inner"&gt;
+                &lt;div class="item active"&gt;
+                    &lt;img src="../images/carousell-01.jpg"
+                        alt="First slide" style="height: 100%" /&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="carousel-caption"&gt;
+                            &lt;h1 data-editable="true"&gt;
+                                &lt;span class="glyphicon glyphicon-fire"&gt;&lt;/span&gt;
+                                Welcome To AuroraPDMS.&lt;/h1&gt;
+                            &lt;p data-editable="true"&gt;
+                                AuroraPDMS help you to manage dialysis management
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;%--&lt;a class="btn btn-lg btn-primary" href="#" role="button" data-editable="true"&gt;Learn more &amp;raquo;&lt;/a&gt;--%&gt;
+                                &lt;a href="#" class="btn btn-lg btn-primary" data-role="button" data-inline="true" data-theme="b" data-app-role="loginstatus" data-icon="lock"&gt;Login&lt;/a&gt;
+
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"&gt;
+                &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a class="right carousel-control"
+                    href="#myCarousel" role="button" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="container marketing"&gt;
+            &lt;!-- Three columns of text below the carousel --&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-patient.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Patient&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Patient Info, Blood Test Record, Sponsor Info
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Patient.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-schedule.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Schedule&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Schedule
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Schedule.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+                &lt;div class="col-sm-4"&gt;
+                    &lt;img class="img-circle" src="../images/icon-treatment.png"
+                        alt="Generic placeholder image" style="width: 140px; height: 140px;" /&gt;
+                    &lt;h2 data-editable="true"&gt;Treatment&lt;/h2&gt;
+                    &lt;p data-editable="true"&gt;
+                        Treatment Info, Expenses
+                    &lt;/p&gt;
+                    &lt;p&gt;
+                        &lt;a class="btn btn-default" href="Treatment.aspx" role="button" data-editable="true"&gt;View &amp;raquo;&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- /.col-sm-4 --&gt;
+            &lt;/div&gt;
+            &lt;!-- /.row --&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;</Body>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-13T12:07:37">
+    <page name="TreatmentMaster" />
+    <rename>Treatment Records</rename>
+  </c>
+  <c y="NodeSet" t="2018-05-13T12:07:46">
+    <page name="TreatmentMaster" />
+    <rename>Treatment Record</rename>
+  </c>
+  <c y="NodeSet" t="2018-05-13T12:13:04">
+    <page name="TreatmentMaster" />
+    <update>
+      <Title>Treatment Record</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-13T12:40:53">
+    <page name="RND" />
+    <move>
+      <page name="MedicalCenters" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-05-13T16:59:00">
+    <page name="ExpensesMaster" />
+    <dataView id="view1" />
+    <update>
+      <RefreshInterval>30</RefreshInterval>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-13T17:04:21">
+    <page name="ExpensesMaster" />
+    <dataView id="view1" />
+    <update>
+      <RefreshInterval>5</RefreshInterval>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-05-14T09:44:56">
+    <page name="PatientMaster" />
+    <rename>Patient Record</rename>
+  </c>
+  <c y="NodeSet" t="2018-05-14T09:45:01">
+    <page name="PatientMaster" />
+    <update>
+      <Title>Patient Record</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-09T16:21:00">
+    <pages />
+    <insert type="page" context="/page/TreatmentModule">
+      <Name>PatientScheduleGen</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Patient Schedule Gen</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-07-09T16:21:27">
+    <page name="PatientScheduleGen" />
+    <insert type="container">
+      <Flow>NewRow</Flow>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-07-09T16:21:50">
+    <page name="PatientScheduleGen" />
+    <container id="c101" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-07-09T16:21:53">
+    <page name="PatientScheduleGen" />
+    <copy>
+      <page name="TreatmentByPatient" />
+      <container id="container1" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-07-09T18:22:18">
+    <page name="PatientScheduleGen" />
+    <dataView id="view1" />
+    <update>
+      <Controller>Patient2</Controller>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T01:08:37">
+    <page name="Dashboard" />
+    <before>
+      <page name="PatientScheduleGen" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-07-11T01:09:21">
+    <page name="PatientScheduleGen" />
+    <update>
+      <Title>Fast Schedule</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T01:10:13">
+    <page name="PatientScheduleGen" />
+    <update>
+      <Name>FastSchedule</Name>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T01:10:24">
+    <page name="FastSchedule" />
+    <rename>Fast Schedule</rename>
+  </c>
+  <c y="NodeSet" t="2018-07-11T01:28:17">
+    <page name="FastSchedule" />
+    <update>
+      <Roles>Administrators, Matron</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T02:53:13">
+    <page name="PatientModule" />
+    <copy>
+      <page name="PatientMaster" />
+    </copy>
+  </c>
+  <c y="NodeSet" t="2018-07-11T02:53:20">
+    <page name="PatientMaster" />
+    <after>
+      <page name="PatientMaster_1" />
+    </after>
+  </c>
+  <c y="NodeSet" t="2018-07-11T02:53:31">
+    <page name="PatientMaster_1" />
+    <rename>Inactive Patient</rename>
+  </c>
+  <c y="NodeSet" t="2018-07-11T02:53:51">
+    <page name="PatientMaster_1" />
+    <dataView id="view1" />
+    <update>
+      <Controller>Patient3</Controller>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T03:16:07">
+    <page name="PatientMaster_1" />
+    <update>
+      <Name>InactivePatient</Name>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T03:19:21">
+    <page name="InactivePatient" />
+    <update>
+      <CustomStyle>material-icon-visibility-off</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T03:20:31">
+    <page name="InactivePatient" />
+    <dataView id="view1" />
+    <update>
+      <Tag>view-style-grid</Tag>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-07-11T03:27:55">
+    <page name="Patient3" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-10-10T10:46:28">
+    <page name="RND" />
+    <move>
+      <page name="VwPatientTeminate" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-10T16:39:12">
+    <page name="PatientModule" />
+    <move>
+      <page name="ReportTerminate" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-10T16:39:32">
+    <page name="ReportTerminate" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <Title>Report Inactive</Title>
+      <Description>Inactive Patients Report</Description>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-10T16:57:11">
+    <page name="ReportTerminate" />
+    <rename>Inactive Patient Report</rename>
+  </c>
+  <c y="NodeSet" t="2018-10-10T16:57:35">
+    <page name="ReportTerminate" />
+    <update>
+      <Description />
+      <CustomStyle>material-icon-visibility-off</CustomStyle>
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-10T16:57:46">
+    <page name="ReportTerminate" />
+    <update>
+      <Title>Inactive Patient Report</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-18T16:01:00">
+    <page name="PatientModule" />
+    <move>
+      <page name="ReportActive" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-18T16:01:16">
+    <page name="ReportActive" />
+    <rename>Active Patient Report</rename>
+  </c>
+  <c y="NodeSet" t="2018-10-18T16:02:32">
+    <page name="ReportActive" />
+    <update>
+      <UseExtenders>false</UseExtenders>
+      <CustomStyle>material-icon-supervisor-account</CustomStyle>
+      <About />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-18T16:02:57">
+    <page name="ReportActive" />
+    <update>
+      <Description />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T02:17:26">
+    <pages />
+    <insert type="page" context="/page/PatientModule">
+      <Name>ReportActiveF</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Report Active F</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-10-19T02:17:39">
+    <page name="ReportActiveF" />
+    <update>
+      <Template />
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T02:28:12">
+    <page name="ReportActiveF" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-10-19T02:28:48">
+    <pages />
+    <insert type="page" context="/page/PatientModule">
+      <Name>ActiveRpt</Name>
+      <Template>(blank)</Template>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Active Rpt</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-10-19T11:05:09">
+    <page name="ActiveRpt" />
+    <update>
+      <Generate>FirstTimeOnly</Generate>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T11:27:49">
+    <page name="RND" />
+    <move>
+      <page name="VwPatientActive" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-19T11:40:02">
+    <pages />
+    <insert type="page">
+      <Name>Reports</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Reports</Path>
+      <Title>Reports</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-10-19T11:40:15">
+    <page name="Reports" />
+    <update>
+      <Url>about:blank</Url>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T11:40:34">
+    <page name="Reports" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T12:15:48">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptPatInactive</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Inactive Patient Report</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:54:31">
+    <page name="PatientModule" />
+    <move>
+      <page name="RptPatInactive" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:54:45">
+    <page name="ReportTerminate" />
+    <update>
+      <Title>Inactive Patient Report x</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:54:56">
+    <page name="Reports" />
+    <move>
+      <page name="ReportTerminate" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:55:05">
+    <page name="RptPatInactive" />
+    <rename>Inactive Patient Report</rename>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:55:18">
+    <page name="RptPatInactive" />
+    <update>
+      <CustomStyle>material-icon-visibility-off</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:58:05">
+    <pages />
+    <insert type="page" context="/page/PatientModule">
+      <Name>RptPatActive</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Rpt Pat Active</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:58:16">
+    <page name="RptPatActive" />
+    <update>
+      <Title>Active Patient Report</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:58:40">
+    <page name="Reports" />
+    <move>
+      <page name="ActiveRpt" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:58:49">
+    <page name="Reports" />
+    <move>
+      <page name="ReportActive" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:58:54">
+    <page name="RptPatActive" />
+    <update>
+      <CustomStyle>material-icon-supervisor-account</CustomStyle>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-10-19T17:59:06">
+    <page name="RptPatActive" />
+    <rename>Active Patient Report</rename>
+  </c>
+  <c y="NodeSet" t="2018-10-19T19:22:18">
+    <page name="InactivePatient" />
+    <before>
+      <page name="RptPatActive" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-10-19T19:22:24">
+    <page name="RptPatInactive" />
+    <before>
+      <page name="RptPatActive" />
+    </before>
+  </c>
+  <c y="NodeSet" t="2018-12-03T11:58:15">
+    <pages />
+    <insert type="page" context="/page/PatientModule">
+      <Name>rptsample</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>rptsample</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-03T12:00:03">
+    <page name="rptsample" />
+    <update>
+      <Template>(blank)</Template>
+    </update>
+  </c>
+  <c y="NodeSet" t="2018-12-05T14:33:14">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptHaemoTrtRecord</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Haemodialysis Treatment Record</Title>
+      <CustomStyle>material-icon-supervisor-account</CustomStyle>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-07T09:32:10">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptInvoice</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Invoice Report</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-10T11:09:15">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptPatDialyzerList</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Patient Dialyzer Report</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-10T15:58:18">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptTrtPatient</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Patient Treatment </Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-11T14:14:17">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptInvDialTrt</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Dialysis Treatment Statement</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-12T10:36:34">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptPayDialysisTrt</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Dialysis Treatment Payment</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-12T12:04:29">
+    <pages />
+    <insert type="page" context="/page/Reports">
+      <Name>RptSponsorSummary</Name>
+      <Template>(blank)</Template>
+      <Generate>FirstTimeOnly</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Title>Sponsor Summary Report</Title>
+      <Roles>*</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2018-12-14T11:27:31">
+    <page name="RptInvoice" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-12-14T11:28:53">
+    <page name="RptHaemoTrtRecord" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2018-12-14T11:30:23">
+    <page name="RptInvDialTrt" />
+    <delete />
+  </c>
+</log>
